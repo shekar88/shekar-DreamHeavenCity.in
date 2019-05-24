@@ -1,0 +1,212 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+.clrScr{
+	clear: : both;
+}
+
+/*heading*/
+
+/*container-2*/
+.container-2{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Lato", sans-serif;
+	
+}
+/*logo*/
+.logo{
+	width: 8%;
+	height: 100px;
+	text-align: center;
+	background-color: #f9cc41;
+}
+/*Menu*/
+.menuDiv{
+	width: 8%;
+	height: 100px;
+	text-align: center;
+	background-color: #f9cc41;
+}
+	.sidenav{
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		overflow-x: hidden;
+		background-color: #f9cc41;
+		transition: 0.5s;
+		padding-top: 60px;
+
+	}
+		.sidenav a{
+			padding: 8px 8px 8px 32px;
+			text-decoration: none;
+			font-size: 25px;
+			color: #818181;
+			display: block;
+			transition: 0.3s;
+		}
+		.sidenav a:hover{
+			color: #bc4f31;
+		}
+		.sidenav .closebtn{
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+/*container-3*/
+.container-3{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	display: flex;
+	justify-content: flex-end;
+	font-family: "Lato", sans-serif;
+	color:white;
+	z-index: 99;
+}
+	.borderDiv{
+		text-align: center;
+		width: 30%;
+		height: 300px;
+		border: 20px solid #f9cc41;
+		background-color: #444c59;
+
+	/*	position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%,-50%);*/
+	}
+	.dreamHeavenCity{
+		position: relative;
+		top:20%;
+	}
+	.mybtn{
+		background-color: #444c59;
+		border: 2px solid white;
+		color: white;
+		font-weight: 700;
+	}
+	.mybtn:hover{
+		background-color: #f9cc41;
+		border: 2px solid #f9cc41;
+	}
+
+/*second section*/
+.sec2{
+	position: relative;
+	background-color: #2b313a;
+	width: 100%;
+	padding-top:100px;
+	padding-bottom: 50px;
+}
+	.container-4{
+		display: flex;
+		justify-content: space-between;
+
+	}
+		.container-4-1{
+			/*position: relative;*/
+			width: 40%;
+			border: 20px solid #444c59;
+		}
+		.container-4-2{
+			width: 55%;
+			!border: 1px solid red;
+		}
+			#aboutOurCompany{
+				color: #f9cc41;
+			}
+			#since1992{
+				font-size: 50px;
+				color: white;
+				font-family: "Lato", sans-serif;
+			}
+			.txtForCon-4-2{
+				color: grey;
+			}
+
+/*second section*/
+
+/*third section*/
+.sec3{
+	width: 10%;
+	position: relative;
+	top:-260px;
+	left: 10%;
+}
+	.yearsOfCreativity{
+			position: absolute;
+			width: 130px;
+			height: 150px;
+			background-color: #f9cc41;
+			text-align: center;
+		}	
+			.content-Div{
+				position: relative;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+				.content-Div h1{
+					font-weight: 700;
+				}
+/*third section*/
+
+/*fourth section*/
+.myCountDiv{
+	display: flex;
+	justify-content: space-between;
+	!border: 1px solid red;
+	color: #f9cc41;
+	background-color: #444c59;
+	transition: all .4s;
+}
+.myCountDiv:hover{
+	background-color: #f9cc41;
+	color:black;
+}
+	.leftDiv{
+		width: 30%;
+		font-size: 60px;
+		text-align: center;
+	}
+	.rightDiv{
+		width: 60%;
+		color: grey;
+	}
+		.rightDiv h1{
+			color: white;
+		}
+
+
+/*fivth section*/
+.container-5{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	color: white;
+}
+	.container-5-1{
+		width: 55%;
+		border:20px solid #444c59;
+	}
+	.container-5-2{
+		width: 40%;
+		!border:1px solid white;
+	}
